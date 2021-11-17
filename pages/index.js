@@ -5,7 +5,7 @@ import { Tabs } from "../src/components/Tabs";
 import site from "../config";
 import { getSortedImages } from "../src/lib/loadImages";
 
-export default function Index({ noms: images }) {
+export default function Index({ images }) {
 	console.log({ noms: images });
 	return (
 		<Container maxWidth="lg">

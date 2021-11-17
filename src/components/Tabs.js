@@ -61,6 +61,7 @@ export const Tabs = ({ images, mon }) => {
 					[theme.breakpoints.down("md")]: {
 						justifyContent: "center",
 					},
+					minHeight: "90vh",
 				}}
 			>
 				{images.map((nom, i) => {
